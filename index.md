@@ -48,3 +48,4 @@ Simulating vehicle dynamics to investigate the effects of different parameters o
 ### 📈 Interpolation Calculator
 Automatic calculator that computes and plots cubic splines and interpolated polynomials for a given set of univariate data.  
 **Technologies:** Python
+[GitHub: Interpolation Calculators](https://github.com/jcchincheong-bb/Interpolation_Calculators)
