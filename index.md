@@ -29,7 +29,7 @@ General purpose simulation software for planar multibody dynamics in MATLAB
 ### 🤖 Robotic Arm Simulations
 Simulating a robotic arm in 2D and 3D to test kinematic controller designs.  
 **Technologies:** MATLAB, PyBullet, Simscape  
-[GitHub: Robotic Arm Simulations](https://github.com/jcchincheong-bb/RoboticArm_Simulations/tree/2D_Kinematics)
+[GitHub: Robotic Arm Simulations](https://github.com/jcchincheong-bb/RoboticArm_Simulations)
 
 ---
 
