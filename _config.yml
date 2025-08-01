@@ -4,7 +4,7 @@ description: >-
   Engineering Portfolio | Mechatronic Systems | Simulations | Robotics | Electronics
 baseurl: ""
 url: "https://jcchincheong-bb.github.io"
-theme: jekyll-theme-modernist
+theme: jekyll-theme-cayman
 
 author:
   name: "Justin Chin Cheong"
