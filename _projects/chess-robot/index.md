@@ -1,18 +1,14 @@
 ---
 layout: post
-title: Super Heavy Booster Catch (Demo Only)
-description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
-    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
+title: Chess Playing Robot
+description:  Designing a synchronous robotic system where two people can play chess against each other remotely using robots. 
 skills: 
-  - Structural analysis
-  - Aerodynamic design
-  - Propulsion system integration
-  - Control Algorithem 
-  - Welding
-  - Metal forming
-  - Thermal simulation
+  - PCB Design (KiCAD)
+  - 3D Modelling (Fusion 360)
+  - Microntrollers (Arduino)
+  - ROS
 
-main-image: /project2.jpg
+main-image: /baxter_roboto.jpg
 ---
 
 ---
@@ -110,5 +106,3 @@ console.log(x);
 | Row 2, Col 1 | Row 2, Col 2 |
 
 make sure to leave aline betwen the table and the header
-
-
