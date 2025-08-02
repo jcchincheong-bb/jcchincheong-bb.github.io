@@ -6,7 +6,7 @@ skills:
   - MATLAB
   - Simulink
   - Numerical Methods
-main-image: /quarter-car.jpg
+main-image: /quarter-car.JPG
 ---
 
 ---

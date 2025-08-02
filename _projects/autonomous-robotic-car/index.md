@@ -8,7 +8,7 @@ skills:
   - Soldering
   - Python
   - C
-main-image: /ros_car.png
+main-image: /ros_car.jpg
 ---
 
 ---
