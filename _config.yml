@@ -1,6 +1,6 @@
 # Main Page Setup
 
-title: Mechatronics Portfolio 
+title: Engineering Portfolio 
 
 
 
@@ -8,7 +8,7 @@ title: Mechatronics Portfolio
 name: Justin Chin Cheong
 headline: Mechatronics Systems Engineering Student
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Hi, I am Justin Chin Cheong, a diligent engineering student who takes pride in my organisational 
+  A diligent engineering student who takes pride in my organisational 
   skills and commitment to my work. My thirst for knowledge has continuously driven me to push beyond 
   my limits in everything I do.
 
@@ -38,20 +38,21 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: Programming Languages
+  - category: Programming
     tools:
     - Python
     - MATLAB
-    - C/Arduino
+    - C
     - HTML
     - CSS
     - JavaScript
   - category: 3D Modelling / CAD
     tools:
     - SolidWorks
-    - Fusion 360 (Autodesk) 
-    - AutoCAD (Autodesk)
-  - category: Simulation / Analysis
+    - Fusion 360 
+    - AutoCAD
+    - 3D Printing
+  - category: Simulation
     tools:
     - Simulink (MATLAB)
     - PyBullet (Python)
@@ -59,10 +60,33 @@ skills:
     tools:
     - Eagle 
     - KiCad
-  - category: Electronics 
+  - category: Electronic Prototyping
     tools:
-    - Soldering
+    - Microcontrollers (Arduino, Atmega, Raspberry Pi)
     - Breadboarding
+    - Electrical Measurements (Multimeter, Oscilloscope)
+    - Soldering
+  - category: Research and Analysis
+    tools:
+    - LaTeX
+    - Literature Review
+    - Data Collection
+    - Presentation Skills
+  - category: Data Analysis
+    tools:
+    - Pandas (Python)
+    - NumPy (Python)
+    - Matplotlib (Python)
+    - Excel
+    - Financial Estimating
+  - category: Soft Skills
+    tools:
+    - Teamwork
+    - Communication
+    - Problem Solving
+    - Time Management
+    - Adaptability
+    - Microsoft Office Suite (Word, Excel, PowerPoint)
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
