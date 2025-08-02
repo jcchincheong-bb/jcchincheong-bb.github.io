@@ -10,8 +10,5 @@ main-image: /quarter-car.JPG
 ---
 
 ---
-## 🔧 Current Features
-## 📦 Requirements
-## 🚧 Future Work
-## 📚 References
+## 🚧 WIP (coming soon :)
 ---

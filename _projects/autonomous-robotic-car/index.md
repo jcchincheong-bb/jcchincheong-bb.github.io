@@ -12,14 +12,5 @@ main-image: /ros_car.jpg
 ---
 
 ---
-## 🔧 Current Features
-
-
-## 📦 Requirements
-
-
-## 🚧 Future Work
-
-  
-## 📚 References
+### 🚧  WIP (coming soon :)
 ---

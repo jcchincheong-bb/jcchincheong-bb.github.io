@@ -9,11 +9,5 @@ main-image: /robot_coordinates.png
 ---
 
 ---
-## 🔧 Current Features
-
-## 📦 Requirements
-
-## 🚧 Future Work
-  
-## 📚 References
+## 🚧 WIP (coming soon :)
 ---
