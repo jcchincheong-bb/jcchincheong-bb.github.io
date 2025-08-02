@@ -1,90 +1,68 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Mechatronics Portfolio 
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Justin Chin Cheong
+headline: Mechatronics Systems Engineer
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I am **Justin Chin Cheong**, a diligent engineering student who takes pride in my organisational 
+  skills and commitment to my work. My thirst for knowledge has continuously driven me to push beyond 
+  my limits in everything I do.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/profile_photo.png
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+resume-url: https://docs.google.com/document/d/1u12JQ0y7hav6BmOYvICYnxsVlIn-KJHxNh3HGH5gafQ/edit?usp=drive_link # or /assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
+  linkedin: justin-chin-cheong-6444421b4    # https://www.linkedin.com/in/{your url slug} 
+  github: jcchincheong-bb    # https://github.com/{your url slug} 
+  # stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
+  # medium:            # https://medium.com/@{your url slug} 
+  # x-twitter:   # https://x.com/{your url slug} 
+  # threads:            # https://threads.net/@{your url slug} 
+  # instragram:       # https://instagram.com/{your url slug} 
+  # youtube:           # https://youtube.com/@{your url slug} 
+  # discord:            # https://discord.com/users/{your url slug} 
+  # bluesky:           # https://bsky.app/profile/{your url slug} 
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: Programming Languages
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - Python
+    - MATLAB
+    - C/Arduino
+    - HTML
+    - CSS
+    - JavaScript
+  - category: 3D Modelling / CAD
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - SolidWorks
+    - Fusion 360 (Autodesk) 
+    - AutoCAD (Autodesk)
+  - category: Simulation / Analysis
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
+    - Simulink (MATLAB)
+    - PyBullet (Python)
   - category: PCB Design
     tools:
-    - Altium Designer
-    - Altium
     - Eagle 
     - KiCad
-  - category: Problem Solving / Risk Management
+  - category: Electronics 
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - Soldering
+    - Breadboarding
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
@@ -94,12 +72,12 @@ formspree-key:   https://formspree.io/f/{8-digit key}
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
+  text: "#2d2d2d"
+  border: "#f8e2e2"
+  link: "#ff8fa3"
+  highlight: "#ff4d6d"
+  background: "#fff8f8"
+  light_background: "#fff5f6"
 
 # A few examples. 
 basic theme:
