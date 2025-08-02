@@ -12,6 +12,7 @@ main-image: /RobArm.png
 
 ---
 [GitHub](https://github.com/jcchincheong-bb/RoboticArm_Simulations)
+
 Simulating a robotic arm in 2D and 3D to test kinematic controller designs.
 
 Draws a lot of content from my other project on [Planar Mulitbody Dynamics](https://github.com/jcchincheong-bb/MBD_Simulations) where I developed general purpose 2D simulations. 

@@ -11,6 +11,7 @@ main-image: /Example_9DataPoints.jpg
 
 ---
 [GitHub](https://github.com/jcchincheong-bb/Interpolation_Calculators)
+
 Calculators for spline and polynomial interpolation
 
 Inspired by the lectures of [Prof. Dr. Achim Kehrein](https://www.hochschule-rhein-waal.de/en/user/7351) on Numerical Mathematics. 
