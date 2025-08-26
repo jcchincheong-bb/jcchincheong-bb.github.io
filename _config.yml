@@ -97,11 +97,11 @@ formspree-key: mdkdldzq
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
   text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
+  border: "#e1592e"
+  link: "#2eb6e1"
+  highlight: "#e1592e"
+  background: "#404040"
+  light_background: "#1a1a1a"
 
 # A few examples. 
 basic theme:
