@@ -24,7 +24,7 @@ To identify the class and position of the pieces, we desigend a modular 4×4 arr
 - 💡 Processed sensor data via an Arduino UNO R4 WiFi with an integrated LED matrix, running ADC at 8-bit resolution and 3.3V reference voltage.
 - 📊 Proved viable classification of up to 7 piece types within a 2.5mm–10mm spacer range based on flux density variation.
 
-{% include image-gallery.html images="heatmap_formboard.jpg, pieces_with_magnets.jpg" height="400"%}
+{% include image-gallery.html images="heatmap_fromboard.jpg, pieces_with_magnets.jpg" height="400"%}
 <span style="font-size: 10px">"Showing the basic principle"</span>  
 
 ## Presentation at ICHORA 2025
@@ -40,6 +40,6 @@ The board will also communicate via Python script to [Li-Chess](https://lichess.
 
 # Robotic Player (WIP)
 Finally, the moves made on Li-Chess can be communicated to a robotic player and it will make the move in real-life. 
-{% include image-gallery.html images="baxter.jpg,ampere_robot.jpg" height="400"%}
+{% include image-gallery.html images="Baxter.jpg, ampere_robot.jpg" height="400"%}
 <span style="font-size: 10px">"Some robots we have at Hochschule Rhein-Waal"</span>  
 ---
