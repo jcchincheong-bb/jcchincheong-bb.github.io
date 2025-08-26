@@ -100,18 +100,6 @@ p {
     padding: 0;
 }
 
-li {
-    color: var(--text-color);
-}
-
-ul {
-    color: var(--text-color);
-}
-
-ol {
-    color: var(--text-color);
-}
-
 
 /* NAVBAR */
 nav {
@@ -149,10 +137,11 @@ nav .right a:last-child {
 nav .right a:last-child:hover,
 nav .right a span:last-child:hover,
 nav .mobile-nav a:last-child:hover,
-nav .mobile-nav a span:last-child:hover {
-    color: var(--text-color);
-    background-color: var(--light-background-color);
-    border-radius: 10px;
+nav .mobile-nav a span:last-child:hover,
+{
+color: var(--text-color);
+background-color: var(--light-background-color);
+border-radius: 10px;
 }
 
 /* Navbar Mobile Menu Button */
