@@ -33,5 +33,5 @@ Heavily inspired by the work of Javad N. Nikravesh, **Planar Multibody Dynamics*
 - More Animations
   
 ## 📚 References
-Nikravesh, J. N. (2007). Planar Multibody Dynamics: Formulation, Programming with MATLAB®, and Applications. CRC Press.
+NIKRAVESH, Parviz. *Planar Multibody Dynamics: Formulation, Programming with MATLAB®, and Applications*. CRC Press, 2007.
 ---

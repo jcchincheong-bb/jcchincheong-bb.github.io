@@ -33,5 +33,5 @@ The goal here is to create efficient 2D and 3D simulations in order to model a c
 - 3D: Implementation of kinematic and kinetic analysis in Simscape and/or PyBullet
   
 ## 📚 References
-Nikravesh, J. N. (2007). Planar Multibody Dynamics: Formulation, Programming with MATLAB®, and Applications. CRC Press.
+NIKRAVESH, Parviz. *Planar Multibody Dynamics: Formulation, Programming with MATLAB®, and Applications*. CRC Press, 2007.
 ---

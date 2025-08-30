@@ -33,5 +33,5 @@ Inspired by the lectures of [Prof. Dr. Achim Kehrein](https://www.hochschule-rhe
 - Implementing cubic spline and newton interpolaters in Python and generalising the lagrange interpolater.
   
 ## 📚 References
-Kehrein, K. A Primer On Numerical Mathetmatics For Scientists and Engineers. _(unreleased, TBA)_
+KEHREIN, Achim. *A Primer On Numerical Mathetmatics For Scientists and Engineers*. _(unreleased, TBA)_
 ---
