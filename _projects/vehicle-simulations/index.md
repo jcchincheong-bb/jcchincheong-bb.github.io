@@ -6,7 +6,7 @@ skills:
   - MATLAB
   - Simulink
   - Numerical Methods
-main-image: /DAS.png
+main-image: /ABS-control.png
 ---
 
 ---
