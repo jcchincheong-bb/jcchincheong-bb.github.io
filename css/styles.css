@@ -771,8 +771,8 @@ footer p {
   height: 20px;
   border-radius: 50%;
   background: var(--border-color);
-  border: 3px solid var(--border-color);
-  box-shadow: 0 0 0 2px var(--highlight-color);
+  border: 3px solid var(--ligh-background-color);
+  box-shadow: 0 0 0 2px var(--border-color);
 }
 
 /* Content below */
