@@ -661,7 +661,7 @@ footer p {
 }
   
 .post-view .content  a {
-    color: var(link-color);
+    color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s ease;
     margin-bottom: 1em;
