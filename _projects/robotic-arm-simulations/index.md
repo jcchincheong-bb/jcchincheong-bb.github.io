@@ -2,17 +2,18 @@
 layout: post
 title: Robotic Simulations
 description: Developing basic simulations for a robotic arm in both 2D and 3D.
+github: https://github.com/jcchincheong-bb/RoboticArm_Simulations
 skills: 
   - MATLAB
   - Python
   - PyBullet
   - Simulink
 main-image: /RobArm.png
+timeline:
+  - July 2025|First Design and test using existing MBD simulation scripts
 ---
 
 ---
-[GitHub](https://github.com/jcchincheong-bb/RoboticArm_Simulations)
-
 Simulating a robotic arm in 2D and 3D to test kinematic controller designs.
 
 Draws a lot of content from my other project on [Planar Mulitbody Dynamics](https://github.com/jcchincheong-bb/MBD_Simulations) where I developed general purpose 2D simulations. 
@@ -34,4 +35,5 @@ The goal here is to create efficient 2D and 3D simulations in order to model a c
   
 ## 📚 References
 NIKRAVESH, Parviz. *Planar Multibody Dynamics: Formulation, Programming with MATLAB®, and Applications*. CRC Press, 2007.
+
 ---

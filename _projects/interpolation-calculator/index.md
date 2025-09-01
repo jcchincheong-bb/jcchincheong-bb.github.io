@@ -2,16 +2,19 @@
 layout: post
 title: Interpolation Calculator
 description: Designing a automatic calculator which can calculate and plot the cubic splines and interpolated polynomials of a given set of univariate data.
+github: https://github.com/jcchincheong-bb/Interpolation_Calculators
 skills: 
   - MATLAB
   - Multibody Dynamics
   - Numerical Methods
 main-image: /Example_9DataPoints.jpg
+timeline:
+  - May 2025|First Iteration with only 3 data points
+  - June 2025|Generalising cubic spline interpolation
+  - July 2025|Generalising polynomial interpolation + comparisons
 ---
 
 ---
-[GitHub](https://github.com/jcchincheong-bb/Interpolation_Calculators)
-
 Calculators for spline and polynomial interpolation
 
 Inspired by the lectures of [Prof. Dr. Achim Kehrein](https://www.hochschule-rhein-waal.de/en/user/7351) on Numerical Mathematics. 
@@ -34,4 +37,5 @@ Inspired by the lectures of [Prof. Dr. Achim Kehrein](https://www.hochschule-rhe
   
 ## 📚 References
 KEHREIN, Achim. *A Primer On Numerical Mathetmatics For Scientists and Engineers*. _(unreleased, TBA)_
+
 ---

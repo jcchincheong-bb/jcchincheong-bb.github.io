@@ -2,17 +2,19 @@
 layout: post
 title:  Vehicle Dynamics Simulations
 description: Developing a set of simulations for vehicle dynamics in different directions.
+github: https://github.com/jcchincheong-bb/Vehicle-Dynamics-Simulations)
 skills: 
   - MATLAB
   - Simulink
   - Numerical Methods
 main-image: /ABS-control.png
+timeline:
+  - April 2025|Acceleration Simulations
+  - May 2025|Tire model and Quarter Car models
+  - June 2025|Braking Simulations
 ---
 
 ---
-[GitHub](https://github.com/jcchincheong-bb/Vehicle-Dynamics-Simulations)
-
-# Vehicle Dynamics Simulations
 A set of general purpose (and some special purpose) simulations for the dynamic behaviour of vehicles in the vertical, lateral and longnitudinal directions.
 
 Done as part of a course on Vehicle Technology taught by [Prof. Dr.-Ing. Dirk Nissing](https://www.hochschule-rhein-waal.de/en/user/7413). 
@@ -39,6 +41,7 @@ Simulations are quite rudimentary, but very educational.
 - Possibly 3D Animations
   
 ## 📚 References
-HEISSING, Bernd and ERSOY, Metin. *Chassis handbook: Fundamentals, Driving Dynamics, components, mechatronics, Perspectives*. Wiesbaden : Vieweg + Teubner, 2011. 
-RILL, George. *Vehicle Dynamics Fundamentals and Modeling with MATLAB®*. CRC Press, 2020.
+- HEISSING, Bernd and ERSOY, Metin. *Chassis handbook: Fundamentals, Driving Dynamics, components, mechatronics, Perspectives*. Wiesbaden : Vieweg + Teubner, 2011. 
+- RILL, George. *Vehicle Dynamics Fundamentals and Modeling with MATLAB®*. CRC Press, 2020.
+
 ---
