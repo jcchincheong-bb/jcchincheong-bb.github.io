@@ -4,18 +4,30 @@
 
 layout: wrapper
 ---
-<script defer data-domain="jcchincheong-bb.github.io" src="https://plausible.io/js/script.js"></script>
+<!-- <script defer data-domain="jcchincheong-bb.github.io" src="https://plausible.io/js/script.js"></script> -->
 
 {% include hero.html%}
 
 
 
-<div class="arrow"> 
+<div class="arrow">
     <a href="#projects">
         More About Me
-    <i class="fa-solid fa-angles-down"></i>
-    </a> 
+        <i class="fa-solid fa-angles-down"></i>
+    </a>
 </div>
 {% include projects.html%}
 {% include skills.html%}
 {% include contact.html%}
+
+{% raw %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1E7E7DPP8N"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1E7E7DPP8N');
+</script>
+{% endraw %}
