@@ -2,6 +2,7 @@
 layout: post
 title: Chess Playing Robot
 description: Designing a synchronous robotic system where two people can play chess against each other remotely using robots.
+github: https://robotics.hochschule-rhein-waal.de/gitlab/chess-robot/chess-playing-robot
 skills: 
   - MATLAB
   - Python
@@ -9,6 +10,12 @@ skills:
   - PCB Design
   - ROS
 main-image: /Baxter.jpg
+timeline: 
+  - March 2024|Project Handover
+  - June 2024|MagBoard Prototype
+  - September 2024|LiChess interface mirroring game state from board to computer
+  - November 2024|Writing the paper on MagBoard
+  - May 2025|Presentation of MagBoard at ICHORA 2025
 ---
 
 ---
@@ -41,5 +48,6 @@ The board will also communicate via Python script to [Li-Chess](https://lichess.
 # Robotic Player (WIP)
 Finally, the moves made on Li-Chess can be communicated to a robotic player and it will make the move in real-life. 
 {% include image-gallery.html images="Baxter.jpg, ampere_robot.jpg" height="400"%}
-<span style="font-size: 10px">"Some robots we have at Hochschule Rhein-Waal"</span>  
+<span style="font-size: 10px">"Some robots we have at Hochschule Rhein-Waal"</span>
+  
 ---
