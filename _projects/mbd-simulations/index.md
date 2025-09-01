@@ -9,9 +9,9 @@ skills:
   - Numerical Methods
 main-image: /DAS.png
 timeline:
-  - April 2025 - Newton-Raphson Method using Symbolic Math
-  - May 2025 - Kinematic Joint Constraint Functions
-  - June 2025 - Generalised Scripts for Coordinate Setup, Constraint Formulation and Kinematic Analysis (time loop)
+  - April 2025|Newton-Raphson Method using Symbolic Math
+  - May 2025|Kinematic Joint Constraint Functions
+  - June 2025|Generalised Scripts for Coordinate Setup, Constraint Formulation and Kinematic Analysis
 ---
 
 ---

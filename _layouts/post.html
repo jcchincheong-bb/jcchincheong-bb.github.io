@@ -29,10 +29,14 @@ layout: wrapper
         </div>
         <div class="timeline-horizontal">
             <h2>Project Timeline</h2>
-            {% for time in page.timeline %}
+            {% for timeline-item in page.timeline %}
+            {% assign time = timeline-item | split: "|" | slice: 0 %}
+            {% assign item = timeline-item | split: "|" | slice: 1 %}
             <li class="timeline-item">
                 <div class="timeline-content">
-                    {{ time }}
+                    <h3>{{ time }}</h3>
+                    <br>
+                    <p>{{ item }}</p>
                 </div>
             </li>
             {% endfor %}
