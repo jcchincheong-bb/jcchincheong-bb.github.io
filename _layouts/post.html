@@ -26,6 +26,16 @@ layout: wrapper
                 {% endfor %}
             </div>
         </div>
+        <div class="timeline-horizontal">
+            <h2>Project Timeline</h2>
+            {% for time in page.timeline %}
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    {{ time }}
+                </div>
+            </li>
+            {% endfor %}
+        </div>
     </div>
       
     <div class="content">

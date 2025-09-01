@@ -741,7 +741,57 @@ footer p {
     height: 100%;
 }
 
+/* Timeline container */
+.timeline-horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  margin: 3rem 0;
+  padding: 0;
+  list-style: none;
+  border-top: 4px solid #007acc;
+}
 
+/* Each timeline item */
+.timeline-item {
+  position: relative;
+  text-align: center;
+  flex: 1;
+}
+
+/* Timeline circle */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007acc;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #007acc;
+}
+
+/* Content below */
+.timeline-content {
+  margin-top: 1.5rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  color: #007acc;
+  font-size: 1.1rem;
+}
 
 
 /*     Responsive styles     */
