@@ -750,7 +750,7 @@ footer p {
   margin: 3rem 0;
   padding: 0;
   list-style: none;
-  border-top: 4px solid var(--light-background-color);
+  border-top: 4px solid var(--text-color);
 }
 
 /* Each timeline item */
@@ -770,9 +770,9 @@ footer p {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--border-color);
-  border: 3px solid var(--light-background-color);
-  box-shadow: 0 0 0 2px var(--border-color);
+  background: var(--light-background-color);
+  border: 3px solid var(--highlight-color);
+  box-shadow: 0 0 0 2px var(--highlight-color);
 }
 
 /* Content below */
