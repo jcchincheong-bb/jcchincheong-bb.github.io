@@ -793,6 +793,100 @@ footer p {
   font-size: 1.1rem;
 }
 
+/* Log grid */
+.log-grid-section {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+   }
+
+.log-grid-section h2{
+    font-size: 34px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.log-grid-section .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 25px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: stretch;
+  
+}
+
+.log-grid-section .log-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.log-grid-section .grid-container .log-link .log-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; /* Take full height of grid cell */
+    box-sizing: border-box;
+    padding: 15px;
+    background: var(--background-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.log-card img {
+    width: 100%; 
+    max-width: 100%; 
+    aspect-ratio: 3/1;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 10px; 
+}
+
+
+.log-card .log-title {
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    margin-bottom: 10px
+}
+
+.log-card .log-title:hover {
+    text-decoration: underline;
+}
+
+.log-card .log-excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    line-clamp: 4px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    line-height: 1.5; 
+    max-height: calc(1.5em * 4); 
+}
+
+.log-card .read-more {
+    background-color: transparent;
+    border: none;
+    color: var(--highlight-color);
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 5px;
+    text-align: start;
+}
+
+.log-card .read-more:hover {
+    text-decoration: underline;
+}
 
 /*     Responsive styles     */
 

@@ -1,15 +1,21 @@
 <!-- logs -->
-<h2>Logs</h2>
+<section id="logs" class="log-grid-section">
+    <h2>Logs</h2>
 
-<ul>
-    {% for log in site.logs %}
-    <!-- {% if log.project == page.slug %} -->
-    <li>
-        <a href="{{ log.url }}">
-            <h3>{{ log.title }}</h3>
-            <p>{{ log.date | date: "%d-%m-%Y" }}</p>
+    <div class="grid-container">
+        {% for item in site.logs %}
+        <a href="{{ item.url }}" class="log-link">
+            <div class="log-card">
+                {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+                {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+                <img src="{{ image_path }}" alt="{{ item.title }} image">
+                <h3 class="log-title">{{ item.title }}</h3>
+                <!-- <p class="log-excerpt">{{ item.description }}</p> -->
+                <button class="read-more">Read more →</button>
+            </div>
         </a>
-    </li>
-    <!-- {% endif %} -->
-    {% endfor %}
-</ul>
+        {% endfor %}
+    </div>
+
+
+</section>
