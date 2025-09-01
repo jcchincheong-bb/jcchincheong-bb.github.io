@@ -2,6 +2,7 @@
 layout: post
 title: Planar Multibody Dynamics Simulations
 description: Creating a general purpose simulation software for planar multibody dynamics in MATLAB.
+github: https://github.com/jcchincheong-bb/MBD_Simulations
 skills: 
   - MATLAB
   - Multibody Dynamics
