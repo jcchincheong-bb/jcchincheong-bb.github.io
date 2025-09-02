@@ -3,9 +3,12 @@
     <h2>Logs</h2>
 
     <div class="grid-container">
+        {% assign logs_found = false %}
+
         {% for item in site.projects %}
         {% if item.layout == "log" %}
         {% if item.project == page.title %}
+        {% assign logs_found = true %}
         <a href="{{ item.url }}" class="log-link">
             <div class="log-card">
                 {% assign folder_path = item.path | split: "/" | slice: 0, 3 | join: "/" %}
@@ -24,6 +27,9 @@
         {% endif %}
         {% endif %}
         {% endfor %}
+        {% unless logs_found %}
+        <span>Sorry, no logs for this project.</span>
+        {% endunless %}
     </div>
 
 </section>
