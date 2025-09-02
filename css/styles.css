@@ -798,7 +798,7 @@ footer p {
 /* LOG GRID */
 .log-grid-section {
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
     display:flex;
     flex-direction: column;
     justify-content: center; 
@@ -863,11 +863,18 @@ footer p {
     font-size: 1.4em;
     text-decoration: none;
     transition: color 0.3s ease; 
-    margin-bottom: 5px
+    margin-bottom: 0px
 }
 
 .log-card .log-title:hover {
     text-decoration: underline;
+}
+
+.log-card .log-date {
+    font-size: 0.9em;
+    color: var(--link-color);
+    margin-left: 1em;
+    white-space: nowrap;  /* to prevent wrapping */
 }
 
 .log-card .log-excerpt {
@@ -880,13 +887,6 @@ footer p {
     word-break: break-word;
     line-height: 1.5; 
     max-height: calc(1.5em * 4); 
-}
-
-.log-card .log-date {
-    font-size: 0.9em;
-    color: var(--link-color);
-    margin-left: 1em;
-    white-space: nowrap;  /* to prevent wrapping */
 }
 
 .log-card .read-more {
