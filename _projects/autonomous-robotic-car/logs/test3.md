@@ -2,7 +2,7 @@
 layout: log
 title: test3
 date: 02-09-2025
-project: autonomous-robotic-car
+project: Autonomous Robotic Car
 main-image: /beans.jpg
 excerpt: testing a logging system (3rd time, just to see with data)
 ---
