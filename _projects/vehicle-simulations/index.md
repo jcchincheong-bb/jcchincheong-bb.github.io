@@ -2,7 +2,7 @@
 layout: post
 title:  Vehicle Dynamics Simulations
 description: Developing a set of simulations for vehicle dynamics in different directions.
-github: https://github.com/jcchincheong-bb/Vehicle-Dynamics-Simulations)
+github: https://github.com/jcchincheong-bb/Vehicle-Dynamics-Simulations
 skills: 
   - MATLAB
   - Simulink
