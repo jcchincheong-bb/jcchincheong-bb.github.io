@@ -42,6 +42,7 @@ $$
 \ddot{x}=\frac{2\mathcal{T}}{d\cdot m\cdot i}-C_{rr}\cdot g-\frac{k_d \cdot\dot{x}^2}{m}  \quad (1)
 $$
 </div>
+
 ### 0.1.1 Simulation Model
 
 ### 0.2.0 Results

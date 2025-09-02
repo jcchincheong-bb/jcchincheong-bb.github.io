@@ -673,7 +673,7 @@ footer p {
   color: var(--text-color);
 }
 
-.post-view .content .mjx-display {
+.post-view .content .MJX-TEX {
   font-size: 1.2em;
   margin: 1em 0;
   text-align: center;
