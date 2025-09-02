@@ -5,13 +5,13 @@ layout: wrapper
 <div class="post-view">
     <div class="summary">
         <div class="title-header">
-            <h1>{{ page.title }}<h2>
+            <h1>{{ page.title }}</h1>
+            <small class="log-date"> {{ page.date }} </small>
         </div>
 
         <div class="project-description">
-            {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
-            {% assign project_path = "/" | append: folder_path | append: "/index.md" %}
-            <h2><a href="{{ project_path }}">{{ page.project }}</a></h2>
+            {% assign project_url = site.projects | where: "title", page.project | first %}
+            <h2><a href="{{ project_url }}">{{ page.project }}</a></h2>
         </div>
     </div>
 
