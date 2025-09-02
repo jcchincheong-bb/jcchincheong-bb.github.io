@@ -880,13 +880,13 @@ footer p {
 .log-card .log-excerpt {
     display: -webkit-box;
     -webkit-line-clamp: 4; 
-    line-clamp: 4px;
+/*    line-clamp: 4px;*/
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-word;
     line-height: 1.5; 
-    max-height: calc(1.5em * 4); 
+/*    max-height: calc(1.5em * 4); */
 }
 
 .log-card .read-more {
