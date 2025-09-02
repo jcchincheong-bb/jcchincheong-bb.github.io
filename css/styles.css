@@ -71,13 +71,6 @@ p {
     color: var(--text-color);
   }
 
-.mjx-display {
-  font-size: 1.2em;
-  margin: 1em 0;
-  text-align: center;
-  color: var(--text-color);
-}
-
 /* NAVBAR */
 nav {
     display: flex;
@@ -666,7 +659,27 @@ footer p {
     object-fit: contain;
     align-self: flex-start;
 }
-  
+
+.post-view .content img {
+    max-height: var(--gallery-height); 
+    width: auto; 
+    max-width: 100%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.post-view .content .mjx-inline {
+  font-size: 1.1em;
+  color: var(--text-color);
+}
+
+.post-view .content .mjx-display {
+  font-size: 1.2em;
+  margin: 1em 0;
+  text-align: center;
+  color: var(--text-color);
+}
+
 .post-view .content  a {
     color: var(--link-color);
     text-decoration: none;
