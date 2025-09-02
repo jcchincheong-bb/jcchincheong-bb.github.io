@@ -886,7 +886,7 @@ footer p {
     text-overflow: ellipsis;
     word-break: break-word;
     line-height: 1.5;
-    margin-bottom: 10px 
+    padding-bottom: 2px;
 /*    max-height: calc(1.5em * 4); */
 }
 
