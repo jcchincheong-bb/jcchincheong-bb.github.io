@@ -3,6 +3,18 @@ layout: wrapper
 ---
 
 <div class="post-view">
+    <div class="summary">
+        <div class="title-header">
+            <h1>{{ page.title }}<h2>
+        </div>
+
+        <div class="project-description">
+            {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
+            {% assign project_path = "/" | append: folder_path | append: "/index.md" %}
+            <h2><a href="{{ project_path }}">{{ page.project }}</a></h2>
+        </div>
+    </div>
+
     <div class="content">
         {{content}}
     </div>

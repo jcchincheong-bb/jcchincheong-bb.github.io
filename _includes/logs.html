@@ -3,15 +3,17 @@
     <h2>Logs</h2>
 
     <div class="grid-container">
+        {% assign project_path = page.path | split: "/" | slice: 1 %}
         {% for item in site.projects %}
         {% if item.layout == "log" %}
-        {% if item.project == page.title %}
+        {% if item.project == project_path %}
         <a href="{{ item.url }}" class="log-link">
             <div class="log-card">
                 {% assign folder_path = item.path | split: "/" | slice: 0, 3 | join: "/" %}
                 {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
                 <img src="{{ image_path }}" alt="{{ item.title }} image">
                 <h3 class="log-title">{{ item.title }}</h3>
+                <small>{{ item.date | date: "%d-%m-%Y" }}</small>
                 <p class="log-excerpt">{{ item.excerpt }}</p>
                 <button class="read-more">Read more →</button>
             </div>
