@@ -3,7 +3,7 @@ layout: log
 title: 2.0 Gough Diagram
 date: 11-05-2025
 project: Vehicle Dynamics Simulations
-main-image: /_projects/vehicle-simulations/assets/image-9.png
+main-image: /assets/image-9.png
 excerpt: Investigating the uses of the Gough Diagram
 ---
 

@@ -3,7 +3,7 @@ layout: log
 title: 3.0 Quarter Car Model
 date: 29-05-2025
 project: Vehicle Dynamics Simulations
-main-image: /_projects/vehicle-simulations/assets/image-14.png
+main-image: /assets/image-14.png
 excerpt: Developing the Quarter Car modelling from ordinary differential equations to simulink model. Then extending the model to account for road disturbances. 
 ---
 

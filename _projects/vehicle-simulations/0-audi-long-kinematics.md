@@ -3,7 +3,7 @@ layout: log
 title: 0.0 Audi Longitudinal Kinematics
 date: 25-04-2025
 project: Vehicle Dynamics Simulations
-main-image: /_projects/vehicle-simulations/assets/image.png
+main-image: /assets/image.png
 excerpt: simulate accleration 0 - 60 kph (16.67 m/s)
 ---
 

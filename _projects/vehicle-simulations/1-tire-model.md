@@ -3,7 +3,7 @@ layout: log
 title: 1.0 Tire Model
 date: 05-05-2025
 project: Vehicle Dynamics Simulations
-main-image: /_projects/vehicle-simulations/assets/image-3.png
+main-image: /assets/image-3.png
 excerpt: Develop a model to meet the data points for tire slip in icy and wet conditions. The Pacejka model will be used and for different conditions, the model parameters will be found.
 ---
 

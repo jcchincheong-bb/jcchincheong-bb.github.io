@@ -3,7 +3,7 @@ layout: log
 title: 4.0 Braking Investigations
 date: 16-06-2025
 project: Vehicle Dynamics Simulations
-main-image: /_projects/vehicle-simulations/assets/image-79.png
+main-image: /assets/image-79.png
 excerpt: Investigating braking behviour with and without an ABS control system
 ---
 
