@@ -10,6 +10,4 @@ excerpt: testing a logging system
 ---
 testing a logging system
 
-i have no idea if this will work
-
 ---
