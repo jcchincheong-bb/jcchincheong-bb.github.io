@@ -812,7 +812,7 @@ footer p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 25px;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     align-items: stretch;
   
@@ -827,8 +827,8 @@ footer p {
 .log-grid-section .grid-container .log-link .log-card {
     display: flex;
     flex-direction: column;
-    width: 85%;
-    height: 85%; /* Take full height of grid cell */
+    width: 90%;
+    height: 95%; /* Take full height of grid cell */
     box-sizing: border-box;
     padding: 15px;
     background: var(--background-color);
@@ -841,8 +841,8 @@ footer p {
 }
 
 .log-card img {
-    width: 85%; 
-    max-width: 85%; 
+    width: 100%; 
+    max-width: 100%; 
     aspect-ratio: 3/1;
     object-fit: cover;
     display: block;
@@ -1003,6 +1003,10 @@ footer p {
     }
 
     .project-grid-section .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .log-grid-section .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   
