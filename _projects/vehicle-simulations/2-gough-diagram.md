@@ -3,7 +3,7 @@ layout: log
 title: 2.0 Gough Diagram
 date: 11-05-2025
 project: Vehicle Dynamics Simulations
-main-image: /assets/image-9.png
+main-image: /_projects/vehicle-simulations/assets/image-9.png
 excerpt: Investigating the uses of the Gough Diagram
 ---
 
@@ -14,11 +14,11 @@ Investigating the uses of the Gough Diagram
 
 ### 2.0.2 175 HR 14 Gough Diagram
 
-![image.png](/assets/image-9.png)
+![image.png](/_projects/vehicle-simulations/assets/image-9.png)
 
 ### 2.0.3 Additional Parameters
 
-![image.png](/assets/image-10.png)
+![image.png](/_projects/vehicle-simulations/assets/image-10.png)
 
 ### 2.1.0 Methodoloy
 
@@ -57,8 +57,8 @@ legend("Fz = 3kN","Fz = 4kN","Fz = 5kN")
 
 ### 2.2.0 Graphs of Lateral Force and Alligning Torque
 
-![image.png](/assets/image-11.png)
+![image.png](/_projects/vehicle-simulations/assets/image-11.png)
 
-![image.png](/assets/image-12.png)
+![image.png](/_projects/vehicle-simulations/assets/image-12.png)
 
 ---

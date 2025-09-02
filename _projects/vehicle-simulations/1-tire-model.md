@@ -3,7 +3,7 @@ layout: log
 title: 1.0 Tire Model
 date: 05-05-2025
 project: Vehicle Dynamics Simulations
-main-image: /assets/image-3.png
+main-image: /_projects/vehicle-simulations/assets/image-3.png
 excerpt: Develop a model to meet the data points for tire slip in icy and wet conditions. The Pacejka model will be used and for different conditions, the model parameters will be found.
 ---
 
@@ -20,7 +20,7 @@ $$
 
 For icy and wet road conditions, the following information was determined experimentally. 
 
-![image.png](/assets/image-2.png)
+![image.png](/_projects/vehicle-simulations/assets/image-2.png)
 
 ### 1.0.3 Parameters
 
@@ -40,13 +40,13 @@ Then you plug in values to find c2
 
 After the model parameters are found, they can be implemented into a Simulink model as shown. 
 
-![image.png](/assets/image-3.png)
+![image.png](/_projects/vehicle-simulations/assets/image-3.png)
 
-![Simulink Model for slip calculation](/assets/image-4.png)
+![Simulink Model for slip calculation](/_projects/vehicle-simulations/assets/image-4.png)
 
 Simulink Model for slip calculation
 
-![Simulink Model for ](/assets/image-5.png)
+![Simulink Model for ](/_projects/vehicle-simulations/assets/image-5.png)
 
 Simulink Model for 
 
@@ -115,7 +115,7 @@ hold off
 
 ### 1.2.1 Friction Slip Relationship Results
 
-![image.png](/assets/image-6.png)
+![image.png](/_projects/vehicle-simulations/assets/image-6.png)
 
 ### 1.2.2 Rudimentary Observations from Model
 
@@ -139,8 +139,8 @@ hold off
 
 ### 1.2.3 General Graphs from Extended Model
 
-![image.png](/assets/image-7.png)
+![image.png](/_projects/vehicle-simulations/assets/image-7.png)
 
-![image.png](/assets/image-8.png)
+![image.png](/_projects/vehicle-simulations/assets/image-8.png)
 
 ---

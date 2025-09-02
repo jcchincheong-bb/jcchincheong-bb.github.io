@@ -3,7 +3,7 @@ layout: log
 title: 0.0 Audi Longitudinal Kinematics
 date: 25-04-2025
 project: Vehicle Dynamics Simulations
-main-image: /assets/image.png
+main-image: /_projects/vehicle-simulations/assets/image.png
 excerpt: simulate accleration 0 - 60 kph (16.67 m/s)
 ---
 
@@ -55,11 +55,11 @@ $$
 
 ### 0.4.0 Rework
 
-![image.png](assets/image.png)
+![image.png](/_projects/vehicle-simulations/assets/image.png)
 
 Using the friction model of 1.0, we derived a new set of ODEs and formed the simulation as shown.
 
-![image.png](_projects\vehicle-simulations\assets\image-1.png)
+![image.png](/_projects/vehicle-simulations/assets/image-1.png)
 
 
 The results were much closer.
@@ -68,17 +68,17 @@ The results were much closer.
 
 1. Audi, Sport Q4 45 e-tron Datasheet
     
-    ![image.png](\_projects\vehicle-simulations\assets\image-90.png)
+    ![image.png](/_projects/vehicle-simulations/assets/image-90.png)
     ![image.png](/_projects/vehicle-simulations/assets/image-91.png)
-    ![image.png](/assets/image-92.png)
+    ![image.png](/_projects/vehicle-simulations/assets/image-92.png)
     
 2. Audi, Sport Q4 45 e-tron [Website](https://www.audi.co.uk/en/models/q4/q4-e-tron/configurator/?ulid=1743863220535&pr=F4BACM0_2025%7C5Y5Y%7CAO#layer=/uk/web/en/models/q4/q4-e-tron-overview.engine_infolayer.F4BA530PWEPYLWDM_2024.html)
     
-    ![image.png](/assets/image-93.png)
+    ![image.png](/_projects/vehicle-simulations/assets/image-93.png)
     
 3. EU, Annex 1, Part A. Category C1 tyres (passenger car) of [Regulation (EU) 2020/740 of the European Parliament and of the Council of 25 May 2020 on the labelling of tyres with respect to fuel efficiency and other parameters](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2020.177.01.0001.01.ENG&toc=OJ%3AL%3A2020%3A177%3ATOC)
     
-    ![image.png](/assets/image-94.png)
+    ![image.png](/_projects/vehicle-simulations/assets/image-94.png)
     
 4. [Wikipedia](https://en.wikipedia.org/wiki/Audi_Q4_e-tron#:~:text=Its%201%2Dspeed%20gear%20is,a%20ratio%20of%2011.5%3A1.) * Needs to be vetted 
 
