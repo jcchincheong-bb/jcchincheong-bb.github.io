@@ -2,7 +2,7 @@
 layout: log
 title: test2
 date: 02-09-2025
-project: autonomous-robot-car
+project: Autonomous Robotic Car
 main-image: /main-image.PNG
 excerpt: testing a logging system
 ---
