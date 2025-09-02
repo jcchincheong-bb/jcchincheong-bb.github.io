@@ -3,10 +3,11 @@
     <h2>Logs</h2>
 
     <div class="grid-container">
-        {% assign project_path = page.path | split: "/" | slice: 1 %}
+        {% assign project_path = page.path %}
         {% for item in site.projects %}
         {% if item.layout == "log" %}
-        {% if item.project == project_path %}
+        {% assign log_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+        {% if log_path == project_path %}
         <a href="{{ item.url }}" class="log-link">
             <div class="log-card">
                 {% assign folder_path = item.path | split: "/" | slice: 0, 3 | join: "/" %}
