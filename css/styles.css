@@ -668,15 +668,7 @@ footer p {
     align-self: flex-start;
 }
 
-.post-view .content .mjx-inline {
-  font-size: 1.1em;
-  color: var(--text-color);
-}
-
 .post-view .content .MJX-TEX {
-  font-size: 1.2em;
-  margin: 1em 0;
-  text-align: center;
   color: var(--text-color);
 }
 

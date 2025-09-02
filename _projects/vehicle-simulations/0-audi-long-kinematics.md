@@ -37,11 +37,9 @@ excerpt: simulate accleration 0 - 60 kph (16.67 m/s)
 - Gear box ratio: $i=0.1$ [4] *8
 
 ### 0.1.0 Equations
-<div class=mjx-display>
 $$
 \ddot{x}=\frac{2\mathcal{T}}{d\cdot m\cdot i}-C_{rr}\cdot g-\frac{k_d \cdot\dot{x}^2}{m}  \quad (1)
 $$
-</div>
 
 ### 0.1.1 Simulation Model
 
