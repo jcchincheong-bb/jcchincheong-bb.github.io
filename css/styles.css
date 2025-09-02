@@ -829,8 +829,8 @@ footer p {
 .log-grid-section .grid-container .log-link .log-card {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 95%; /* Take full height of grid cell */
+    width: 100%;
+    height: 100%; /* Take full height of grid cell */
     box-sizing: border-box;
     padding: 15px;
     background: var(--background-color);
@@ -856,7 +856,7 @@ footer p {
     display: flex;
     justify-content: space-between; 
     align-items: baseline; 
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
 }
 
 .log-card .log-title {

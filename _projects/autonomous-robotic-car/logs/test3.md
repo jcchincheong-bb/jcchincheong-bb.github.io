@@ -10,7 +10,7 @@ excerpt: testing a logging system (3rd time, just to see with data)
 ---
 testing a logging system
 
-{% include image-gallery.html images="beans.jpg, main-image.PNG" height="400"%}
+{% include image-gallery.html images="beans.jpg" height="400"%}
 <span style="font-size: 10px">"Showing the basic principle"</span>  
 
 ---
