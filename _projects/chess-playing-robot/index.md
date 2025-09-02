@@ -37,6 +37,8 @@ To identify the class and position of the pieces, we desigend a modular 4×4 arr
 ## Presentation at ICHORA 2025
 My mentoring professors, my fellow student research assistant and I presented the current design at The International Congress on Human-Computer Interaction, Optimization, and Robotic Applications (ICHORA) in Turkey in May 2025. The paper was published by [IEEE](https://ieeexplore.ieee.org/document/11016842).
 
+For the paper, I researched and designed the experiments to investigate the magnetic flux densities at different distances. I also performed the interference tests. I wrote the sections on Design and Implementation, Results and Discussion and Conclusion. 
+
 {% include image-gallery.html images="ichora.jpeg, ichora2.jpeg" height="400"%}
 <span style="font-size: 10px">"Images from ICHORA 2025"</span>  
 
