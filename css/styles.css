@@ -850,6 +850,12 @@ footer p {
     margin-bottom: 10px; 
 }
 
+.log-card .log-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline; 
+    margin-bottom: 0.5em;
+}
 
 .log-card .log-title {
     font-size: 1.4em;
@@ -872,6 +878,13 @@ footer p {
     word-break: break-word;
     line-height: 1.5; 
     max-height: calc(1.5em * 4); 
+}
+
+.log-card .log-date {
+    font-size: 0.9em;
+    color: var(--link-color);
+    margin-left: 1em;
+    white-space: nowrap;  /* to prevent wrapping */
 }
 
 .log-card .read-more {
