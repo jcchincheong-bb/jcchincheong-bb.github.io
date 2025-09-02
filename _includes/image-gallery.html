@@ -15,16 +15,16 @@
           />
       {% else %}
           <!-- Debugging Info -->
-          <p>URL - {{ page.url }}</p>
+          <!-- <p>URL - {{ page.url }}</p>
           <p>PATH - {{ page.path }}</p>
           <p>FOLDERPATH - {{ folder_path }}</p>
-          <p>IMAGE NAME - {{ image_name }}</p>
-          <!-- <img 
-              src="{{ folder_path }}{{ image_name }}" 
+          <p>IMAGE NAME - {{ image_name }}</p> -->
+          <img 
+              src="{{ folder_path }}/{{ image_name }}" 
               alt="{{ image_name }}"
               loading="lazy"
               onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
-          /> -->
+          />
       {% endif %}
   {% endfor %}
 </div>
