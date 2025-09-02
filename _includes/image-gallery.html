@@ -1,6 +1,9 @@
 {% assign image_paths = include.images | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
 
+{% assign folder_path = page.path | split: "/" | slice: 0, -1 | join: "/" | prepend: "/" %}
+
+
 <div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
   {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
@@ -11,10 +14,9 @@
               loading="lazy"
           />
       {% else %}
-          {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
           <img 
-              src="{{ page_url_without_index }}{{ image_name }}" 
-              alt="{{image_name}}"
+              src="{{ folder_path }}/{{ image_name }}" 
+              alt="{{ image_name }}"
               loading="lazy"
               onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
           />
