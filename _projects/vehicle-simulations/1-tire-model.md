@@ -20,7 +20,7 @@ $$
 
 For icy and wet road conditions, the following information was determined experimentally. 
 
-![image.png](assets/image%202.png)
+![image.png](/assets/image%202.png)
 
 ### 1.0.3 Parameters
 
@@ -40,13 +40,13 @@ Then you plug in values to find c2
 
 After the model parameters are found, they can be implemented into a Simulink model as shown. 
 
-![image.png](assets/image%203.png)
+![image.png](/assets/image%203.png)
 
-![Simulink Model for slip calculation](assets/image%204.png)
+![Simulink Model for slip calculation](/assets/image%204.png)
 
 Simulink Model for slip calculation
 
-![Simulink Model for ](assets/image%205.png)
+![Simulink Model for ](/assets/image%205.png)
 
 Simulink Model for 
 
@@ -115,7 +115,7 @@ hold off
 
 ### 1.2.1 Friction Slip Relationship Results
 
-![image.png](assets/image%206.png)
+![image.png](/assets/image%206.png)
 
 ### 1.2.2 Rudimentary Observations from Model
 
@@ -139,8 +139,8 @@ hold off
 
 ### 1.2.3 General Graphs from Extended Model
 
-![image.png](assets/image%207.png)
+![image.png](/assets/image%207.png)
 
-![image.png](assets/image%208.png)
+![image.png](/assets/image%208.png)
 
 ---
