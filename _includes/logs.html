@@ -5,6 +5,7 @@
     <div class="grid-container">
         {% for item in site.projects %}
         {% if item.layout == "log" %}
+        {% if log.project == page.slug %}
         <a href="{{ item.url }}" class="log-link">
             <div class="log-card">
                 {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
@@ -15,6 +16,7 @@
                 <button class="read-more">Read more →</button>
             </div>
         </a>
+        {% endif %}
         {% endif %}
         {% endfor %}
     </div>
