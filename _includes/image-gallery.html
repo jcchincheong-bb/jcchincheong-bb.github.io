@@ -1,7 +1,7 @@
 {% assign image_paths = include.images | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
 
-{% assign folder_path = page.url | split: "/" | slice: 0, 2 | join: "/" | prepend: "/" %}
+{% assign folder_path = page.url | split: "/" | slice: 0, 3 | join: "/" %}
 
 
 <div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
