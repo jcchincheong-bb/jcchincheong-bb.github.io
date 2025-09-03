@@ -8,6 +8,7 @@ skills:
   - Python
   - Ardunio
   - PCB Design
+  - Research
   - ROS
 main-image: /Baxter.jpg
 timeline: 

@@ -43,6 +43,7 @@ skills:
     - Python
     - MATLAB
     - C
+    - C++
     - HTML
     - CSS
     - JavaScript
@@ -55,10 +56,8 @@ skills:
   - category: Simulation
     tools:
     - Simulink (MATLAB)
-    - PyBullet (Python)
   - category: PCB Design
     tools:
-    - Eagle 
     - KiCad
   - category: Electronic Prototyping
     tools:
@@ -74,11 +73,11 @@ skills:
     - Presentation Skills
   - category: Data Analysis
     tools:
+    - Numerical Methods
     - Pandas (Python)
     - NumPy (Python)
     - Matplotlib (Python)
-    - Excel
-    - Financial Estimating
+    - Excel (And Google Sheets)
   - category: Soft Skills
     tools:
     - Teamwork

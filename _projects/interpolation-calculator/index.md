@@ -7,6 +7,7 @@ skills:
   - MATLAB
   - Multibody Dynamics
   - Numerical Methods
+  - Python
 main-image: /Example_9DataPoints.jpg
 timeline:
   - May 2025|First Iteration with only 3 data points

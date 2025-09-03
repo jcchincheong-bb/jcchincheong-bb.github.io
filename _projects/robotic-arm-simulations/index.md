@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Robotic Simulations
+title: Robotic Simulations (WIP)
 description: Developing basic simulations for a robotic arm in both 2D and 3D.
 github: https://github.com/jcchincheong-bb/RoboticArm_Simulations
 skills: 
   - MATLAB
-  - Python
-  - PyBullet
-  - Simulink
+  - Numerical Methods
 main-image: /RobArm.png
 timeline:
   - July 2025|First Design and test using existing MBD simulation scripts
