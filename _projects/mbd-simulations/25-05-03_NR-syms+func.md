@@ -112,7 +112,7 @@ theta0 = [pi/2;0.58;1.3]; % initial guess
 fsolve(phi,theta0)
 ```
 
-I also attempted to solve it analytically [https://de.mathworks.com/help/symbolic/solve-a-system-of-algebraic-equations.html]
+I also attempted to solve it analytically [https://de.mathworks.com/help/symbolic/solve-a-system-of-algebraic-equations.html]([https://de.mathworks.com/help/symbolic/solve-a-system-of-algebraic-equations.html])
 ```matlab
 %% System Parameters 
 a = 2.0;
