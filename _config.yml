@@ -47,21 +47,45 @@ skills:
     - HTML
     - CSS
     - JavaScript
+    - Git
+    - LaTeX
+  - category: Simulations
+    tools:
+    - Simulink (MATLAB)
+    - SimPy (Python)
+    - ANSYS Workbench
+    - PyBullet (Python)
+  - category: Embedded Systems
+    tools:
+    - Arduino
+    - Raspberry Pi
+    - AVR Atmega
+  - category: Control Systems
+    tools:
+    - PID Turing
+    - State-Space Modelling
+    - PLC Programming (Ladder Logic)
+    - Stability Analysis (Nyquist, Bode, Root Locus)
+    - Laplace Transforms
+    - State Space Modelling
+  - category: Robotics
+    tools:
+    - Robot Operating System (ROS)
+    - Inverse Kinematics and Dynamics
+    - Multibody Dynamics
+    - Motor Control
   - category: 3D Modelling / CAD
     tools:
     - SolidWorks
     - Fusion 360 
     - AutoCAD
     - 3D Printing
-  - category: Simulation
-    tools:
-    - Simulink (MATLAB)
   - category: PCB Design
     tools:
     - KiCad
+    - EAGLE
   - category: Electronic Prototyping
     tools:
-    - Microcontrollers (Arduino, Atmega, Raspberry Pi)
     - Breadboarding
     - Electrical Measurements (Multimeter, Oscilloscope)
     - Soldering
@@ -80,7 +104,8 @@ skills:
     - Excel (And Google Sheets)
   - category: Soft Skills
     tools:
-    - Teamwork
+    - Quick Learner
+    - Teamwork and Independent Work
     - Communication
     - Problem Solving
     - Time Management
