@@ -11,7 +11,7 @@ excerpt: I assembled the chassis and wired the motors, motor drivers, sensor and
 # Chassis Assembly
 I attached the motors to the chassis and tested the directions of travel. 
 
--
+{% include youtube-video.html id="BYJCYphVymE" autoplay= "false"%}
 
 Then I soldered some wires to the leads of the motors for easier access. 
 
@@ -75,7 +75,7 @@ void loop() {
 
 When I was wiring the first motor driver and tested it with some simple Arduino code, I noticed the motors seem to pause on each loop 
 
--
+{% include youtube-video.html id="7TFzof9ijtM" autoplay= "false"%}
 
 I suspect this is due to single 6V supply being insufficient for the Arduino, the motors and L298. This is why I added an extra 9V cell to supply the Arduino. 
 
@@ -158,7 +158,7 @@ Finally, I had a basic car that moves foward until it detects an obstacle within
 
 -
 
--
+{% include youtube-video.html id="R1SihGAhrkU" autoplay= "false"%}
 
 {% include youtube-video.html id="3TrSqPm2GsU" autoplay= "false"%}
 
@@ -174,9 +174,9 @@ Finally, I had a basic car that moves foward until it detects an obstacle within
 | 4 | Rear L298N IN3 | Forward for Rear Left Motor |
 | 5 | Rear L298N  IN4 | Reverse for Rear Left Motor |
 | GND | Both L298N  GND, Ultrasonic Sensor GND | Must GND L298N, Arduino and power supply |
-| 5V | Rear L298N 5V |  |
+| 5V | Rear L298N 5V | to power arduino or vice-versa |
 | Left Power Rail + | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
-| Right Power Rail +  | Both L298N 12V |  |
+| Right Power Rail +  | Both L298N 12V | to power the motor drivers |
 | 12 | Ultrasonic Sensor Trigger | Input to send pulse  |
 | 13 | Ultrasonic Sensor Echo | Output of time for reception |
 
