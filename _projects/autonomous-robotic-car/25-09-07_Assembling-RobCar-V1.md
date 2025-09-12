@@ -11,7 +11,7 @@ excerpt: I assembled the chassis and wired the motors, motor drivers, sensor and
 # Chassis Assembly
 I attached the motors to the chassis and tested the directions of travel. 
 
-{% include youtube-video.html id="BYJCYphVymE" autoplay= "false"%}
+<!-- {% include youtube-video.html id="BYJCYphVymE" autoplay= "false"%}
 
 Then I soldered some wires to the leads of the motors for easier access. 
 
@@ -178,6 +178,6 @@ Finally, I had a basic car that moves foward until it detects an obstacle within
 | Left Power Rail + | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
 | Right Power Rail +  | Both L298N 12V |  |
 | 12 | Ultrasonic Sensor Trigger | Input to send pulse  |
-| 13 | Ultrasonic Sensor Echo | Output of time for reception |
+| 13 | Ultrasonic Sensor Echo | Output of time for reception | -->
 
 ---
