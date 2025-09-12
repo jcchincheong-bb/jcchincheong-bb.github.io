@@ -15,7 +15,7 @@ I attached the motors to the chassis and tested the directions of travel.
 
 Then I soldered some wires to the leads of the motors for easier access. 
 
--
+{% include image-gallery.html images="soldering_RobCar_v1.jpg" height="400"%}
 
 I am using four 1.5V batteries (6V) as a power supply for the motors. 
 
@@ -175,8 +175,8 @@ Finally, I had a basic car that moves foward until it detects an obstacle within
 | 5 | Rear L298N  IN4 | Reverse for Rear Left Motor |
 | GND | Both L298N  GND, Ultrasonic Sensor GND | Must GND L298N, Arduino and power supply |
 | 5V | Rear L298N 5V | to power arduino or vice-versa |
-| Left Power Rail + | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
-| Right Power Rail +  | Both L298N 12V | to power the motor drivers |
+| Left Power Rail positive | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
+| Right Power Rail positve  | Both L298N 12V | to power the motor drivers |
 | 12 | Ultrasonic Sensor Trigger | Input to send pulse  |
 | 13 | Ultrasonic Sensor Echo | Output of time for reception |
 
