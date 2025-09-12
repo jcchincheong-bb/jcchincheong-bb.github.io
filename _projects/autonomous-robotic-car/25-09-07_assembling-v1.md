@@ -22,7 +22,7 @@ I am using four 1.5V batteries (6V) as a power supply for the motors.
 # Motor Control System
 After the motors where all attached and moving the correct direcion, I wired the L298 motor drivers along with the Arduino. 
 
--
+{% include image-gallery.html images="RobCar-V1_motor-drivers.jpg" height="400"%}
 
 To test the first driver, I create a simple script to drive in forward then stop and then reverse
 ```arduino
@@ -83,7 +83,7 @@ I suspect this is due to single 6V supply being insufficient for the Arduino, th
 # Ultrasonic Sensor
 To mount the ultrasonic sensor, I couldn't just pin it into the breadboard as that would just connect all of the pins together due to the orientation of the breadboard. So I decided to use male to female jumpers which I then ran through the chassis of the car towards the Arduino. This made me have to change the direction of travel, so I had to switch the pins in the Arduino code for the motors drivers. 
 
--
+{% include image-gallery.html images="RobCar-V1_sensor-wiring.jpg" height="400"%}
 
 I also made some adjustments to the code.
 
