@@ -163,21 +163,22 @@ Finally, I had a basic car that moves foward until it detects an obstacle within
 {% include youtube-video.html id="3TrSqPm2GsU" autoplay= "false"%}
 
 ## Pin Connections
+
 | **Arduino/Breadboard** | **Component** | **Comment** |
 | --- | --- | --- |
-| 7   | Front L298N IN1  | Forward for Front Right Motor |
-| 6   | Front L298N IN2  | Reverse for Front Right Motor |
-| 9   | Front L298N IN3  | Forward for Front Left Motor |
-| 8   | Front L298N IN4  | Reverse for Front Left Motor |
-| 2   | Rear L298N IN1   | Forward for Rear Right Motor |
-| 3   | Rear L298N IN2   | Reverse for Rear Right Motor |
-| 4   | Rear L298N IN3   | Forward for Rear Left Motor |
-| 5   | Rear L298N IN4   | Reverse for Rear Left Motor |
+| 7 | Front L298N IN1 | Forward for Front Right Motor |
+| 6 | Front L298N IN2 | Reverse for Front Right Motor |
+| 9 | Front L298N IN3 | Forward for Front Left Motor |
+| 8 | Front L298N IN4 | Reverse for Front Left Motor |
+| 2 | Rear L298N IN1 | Forward for Rear Right Motor |
+| 3 | Rear L298N IN2 | Reverse for Rear Right Motor |
+| 4 | Rear L298N IN3 | Forward for Rear Left Motor |
+| 5 | Rear L298N IN4 | Reverse for Rear Left Motor |
 | GND | Both L298N GND, Ultrasonic Sensor GND | Must GND L298N, Arduino, and power supply |
-| 5V  | Rear L298N 5V    | To power Arduino or vice-versa |
-| Left Power Rail +  | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
+| 5V | Rear L298N 5V | To power Arduino or vice-versa |
+| Left Power Rail + | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
 | Right Power Rail + | Both L298N 12V | To power the motor drivers |
-| 12  | Ultrasonic Sensor Trigger | Input to send pulse |
-| 13  | Ultrasonic Sensor Echo    | Output of time for reception |
+| 12 | Ultrasonic Sensor Trigger | Input to send pulse |
+| 13 | Ultrasonic Sensor Echo | Output of time for reception |
 
 ---
