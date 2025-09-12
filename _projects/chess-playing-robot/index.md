@@ -20,9 +20,10 @@ timeline:
 ---
 
 ---
+# Overview
 My work as Student Research Assistant at Hochschule Rhein-Waal was to develop a human-computer chess robotic system where by a human can play chess against a computer in real life using a physical chess board with the robot acting as the medium of the computer. The concept has so far evolved to the goal of creating a system where two people can play remotely, for instance between the two campuses at Hochschule Rhein-Waal. I work under [Prof. Dr. Matthias Krauledat](https://www.hochschule-rhein-waal.de/de/user/7368) and [Prof. Dr. Ronny Hartanto](https://www.hochschule-rhein-waal.de/en/user/7875). I also worked with a fellow student assistant [Praneel Bhatia](https://www.linkedin.com/in/praneelbhatia/) who did the initial designs and prototyping of the MagBoard. 
 
-The project is ongoing, but the primary components of the project are: 
+The project is ongoing, but the primary components of the project are as follows: 
 
 # Piece Identifiation System
 ## MagBoard – A Reimagined Chessboard Powered by Magnetic Proximity Sensing
