@@ -156,7 +156,7 @@ void loop() {
 # Final Result
 Finally, I had a basic car that moves foward until it detects an obstacle within 10cm of the sensor. 
 
--
+{% include image-gallery.html images="RobCar_v1.jpg" height="400"%}
 
 {% include youtube-video.html id="R1SihGAhrkU" autoplay= "false"%}
 
@@ -165,19 +165,19 @@ Finally, I had a basic car that moves foward until it detects an obstacle within
 ## Pin Connections
 | **Arduino/Breadboard** | **Component** | **Comment** |
 | --- | --- | --- |
-| 7 | Front L298N IN1 | Forward for Front Right Motor |
-| 6 | Front L298N  IN2 | Reverse for Front Right Motor |
-| 9 | Front L298N  IN3 | Forward for Front Left Motor |
-| 8 | Front L298N  IN4 | Reverse for Front Left Motor |
-| 2 | Rear L298N IN1 | Forward for Rear Right Motor |
-| 3 | Rear L298N  IN2 | Reverse for Rear Right Motor |
-| 4 | Rear L298N IN3 | Forward for Rear Left Motor |
-| 5 | Rear L298N  IN4 | Reverse for Rear Left Motor |
-| GND | Both L298N  GND, Ultrasonic Sensor GND | Must GND L298N, Arduino and power supply |
-| 5V | Rear L298N 5V | to power arduino or vice-versa |
-| Left Power Rail positive | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
-| Right Power Rail positve  | Both L298N 12V | to power the motor drivers |
-| 12 | Ultrasonic Sensor Trigger | Input to send pulse  |
-| 13 | Ultrasonic Sensor Echo | Output of time for reception |
+| 7   | Front L298N IN1  | Forward for Front Right Motor |
+| 6   | Front L298N IN2  | Reverse for Front Right Motor |
+| 9   | Front L298N IN3  | Forward for Front Left Motor |
+| 8   | Front L298N IN4  | Reverse for Front Left Motor |
+| 2   | Rear L298N IN1   | Forward for Rear Right Motor |
+| 3   | Rear L298N IN2   | Reverse for Rear Right Motor |
+| 4   | Rear L298N IN3   | Forward for Rear Left Motor |
+| 5   | Rear L298N IN4   | Reverse for Rear Left Motor |
+| GND | Both L298N GND, Ultrasonic Sensor GND | Must GND L298N, Arduino, and power supply |
+| 5V  | Rear L298N 5V    | To power Arduino or vice-versa |
+| Left Power Rail +  | Front L298N 5V, Ultrasonic Sensor PWR | L298N outputs the 5V which powers the US sensor |
+| Right Power Rail + | Both L298N 12V | To power the motor drivers |
+| 12  | Ultrasonic Sensor Trigger | Input to send pulse |
+| 13  | Ultrasonic Sensor Echo    | Output of time for reception |
 
 ---
