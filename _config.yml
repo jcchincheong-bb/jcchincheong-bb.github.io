@@ -51,10 +51,11 @@ skills:
     - LaTeX
   - category: Simulations
     tools:
-    - Simulink (MATLAB)
-    - SimPy (Python)
-    - ANSYS Workbench
-    - PyBullet (Python)
+    - Simulink
+    - SimPy
+    - PyBullet
+    - python-control
+    - Gazebo
   - category: Embedded Systems
     tools:
     - Arduino
@@ -62,18 +63,17 @@ skills:
     - AVR Atmega
   - category: Control Systems
     tools:
-    - PID Turing
+    - PID Tuning
     - State-Space Modelling
     - PLC Programming (Ladder Logic)
     - Stability Analysis (Nyquist, Bode, Root Locus)
     - Laplace Transforms
-    - State Space Modelling
   - category: Robotics
     tools:
-    - Robot Operating System (ROS)
+    - Robot Operating System (ROS 2)
     - Inverse Kinematics and Dynamics
     - Multibody Dynamics
-    - Motor Control
+    - Sensors and Actuators
   - category: 3D Modelling / CAD
     tools:
     - SolidWorks
@@ -84,24 +84,39 @@ skills:
     tools:
     - KiCad
     - EAGLE
-  - category: Electronic Prototyping
+  - category: Electronics
     tools:
-    - Breadboarding
+    - Breadboards
     - Electrical Measurements (Multimeter, Oscilloscope)
     - Soldering
+    - Circuit Design and Analysis
+    - Sensor Interfacing
+    - Motor Control 
   - category: Research and Analysis
     tools:
     - LaTeX
     - Literature Review
     - Data Collection
     - Presentation Skills
-  - category: Data Analysis
+  - category: Statistical and Data Analysis
     tools:
     - Numerical Methods
-    - Pandas (Python)
-    - NumPy (Python)
-    - Matplotlib (Python)
+    - Python (NumPy, Pandas, sciPy, Matplotlib)
     - Excel (And Google Sheets)
+    - Regression Analysis
+    - Hypothesis Testing
+    - Data Visualization
+    - Interpolation and Extrapolation
+  - category: Tools and Platforms
+    tools:
+    - Git and GitHub 
+    - Linux (Ubuntu and Debian)
+    - Windows
+    - LaTeX
+    - Python - Spyder, PyCharm and Jupyter Notebooks
+    - Code Editors - VS Code, Sublime Text, Notepad++
+    - Project and Knowledge Management - Notion and OneNote
+    - Cloud Storage - Google Drive
   - category: Soft Skills
     tools:
     - Quick Learner
@@ -111,6 +126,7 @@ skills:
     - Time Management
     - Adaptability
     - Microsoft Office Suite (Word, Excel, PowerPoint)
+    - Systematic Thinker
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
