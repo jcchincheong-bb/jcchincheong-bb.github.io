@@ -29,8 +29,8 @@ This project was done as part of the course 2907 Sensors and Actuator Networks a
 - Can alert user if someone opened the lid without taking or removing mail ie a Tampering Alert
 - Can last up to 10 days on a single 1800mAh battery
 
-{% include image-gallery.html images="finalProduct.jpg, finalProduct_outside-open.jpg" height="400"%}
-{% include image-gallery.html images="finalProduct_wBatteryPack.jpg, finalProduct_30deg.jpg" height="400"%}
+{% include image-gallery.html images="finalProduct.jpeg, finalProduct_outside-open.jpg" height="300"%}
+{% include image-gallery.html images="finalProduct_wBatteryPack.jpg, finalProduct_30deg.jpg" height="300"%}
 <span style="font-size: 10px">"Images of the Final Product Installed"</span>  
 
 ## 📦 Requirements
@@ -38,6 +38,7 @@ This project was done as part of the course 2907 Sensors and Actuator Networks a
 - Python (for server)
 
 For required hardware, see this bill of materials taken from the project report:
+
 | Item                          | Part              | Description                      | Qty | Notes                   | Total Price (€) |
 | ----------------------------- | ----------------- | -------------------------------- | --- | ----------------------- | --------------- |
 | **1.0 Mechanical Components** |                   |                                  |     |                         |                 |

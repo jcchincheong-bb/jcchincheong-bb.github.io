@@ -28,7 +28,7 @@ This project was done as part of the course 2314 Practical Electronics at HSRW. 
 {% include image-gallery.html images="testingSystem_top_annotated.png" height="400"%}
 <span style="font-size: 10px">"System Prototype"</span>
 
-{% include image-gallery.html images="SolderedOld.jpg" height="400"%}
+{% include image-gallery.html images="SolderedOld.jpeg, pcb_back.jpg" height="400"%}
 <span style="font-size: 10px">"PCB"</span>
 
 {% include youtube-video.html id="qGrgIr3oHPE" autoplay= "false"%}
@@ -45,6 +45,7 @@ This project was done as part of the course 2314 Practical Electronics at HSRW. 
 - Arduino IDE
 
 For required hardware, see these bills of materials taken from the project report:
+
 | Item      | Schematic Ref             | Qty | Component                       | Part Number             | Manufacturer          | Vendor | Price/Unit[€]| Price [€] |
 | --------- | ------------------------- | --- | ------------------------------- | ----------------------- | --------------------- | ------ | ------------ | --------- |
 | 1         | U1                        | 1   | Capacitive Accelerometer        | ADXL345BCCZ-RL7         | Analog Devices        | Mouser | 5.65         | 5.65      |
