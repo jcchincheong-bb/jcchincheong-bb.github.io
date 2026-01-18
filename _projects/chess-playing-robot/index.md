@@ -25,7 +25,7 @@ My work as Student Research Assistant at Hochschule Rhein-Waal was to develop a 
 
 The project is ongoing, but the primary components of the project are as follows: 
 
-# Piece Identifiation System
+# Piece Identification System
 ## MagBoard – A Reimagined Chessboard Powered by Magnetic Proximity Sensing
 To identify the class and position of the pieces, we desigend a modular 4×4 array of analogue Hall-effect sensors. Each piece is embedded with a magnet and 3D printed spacer configured to give readings within a class range. The design utilized 64 sensors, PLA 3D-printed spacers, and neodymium magnets, with theoretical modeling and validation through 180+ precision measurements using a field strength meter and digital multimeter.
 - 🧲 Achieved piece position recognition with ~90% accuracy, and confirmed minimal magnetic interference (<10mT deviation) through structured interference tests.

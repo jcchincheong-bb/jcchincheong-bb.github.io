@@ -92,6 +92,7 @@ skills:
     - Circuit Design and Analysis
     - Sensor Interfacing
     - Motor Control 
+    - LoRaWAN Communication
   - category: Research and Analysis
     tools:
     - LaTeX
