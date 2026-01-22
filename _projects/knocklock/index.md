@@ -23,7 +23,7 @@ As children, many of us might have invented secret knocks that we used to identi
 {% include image-gallery.html images="preliminarySketch.png, full-prototype_open-1.jpg" height="400"%}
 <span style="font-size: 10px">"First Concept Sketch and Final Product Side-by-Side"</span>  
 
-This project was done as part of the course 2314 Practical Electronics at HSRW. It was completed alongside [Abhinav Kothari](https://www.linkedin.com/in/abhinav-kothari-2ak/). I did the schematic design of the motor control, programming interface and power protection as well as most of the PCB design and system verification. He did the design of the sensor circuit, HMI power regulation as well as software development, housing design and breadboard prototyping. The full project report can be found [here](https://github.com/jcchincheong-bb/Knock-Lock/blob/main/README.md).
+This project was done as part of the course 2314 Practical Electronics at HSRW. It was completed alongside [Abhinav Kothari](https://www.linkedin.com/in/abhinav-kothari-2ak/). I did the schematic design of the motor control, programming interface and power protection as well as most of the PCB design and system verification. He did the design of the sensor circuit, HMI power regulation as well as software development, housing design and breadboard prototyping. The full project report can be found [here](https://github.com/jcchincheong-bb/Knock-Lock/blob/main/Report.md).
 
 {% include image-gallery.html images="testingSystem_top_annotated.png" height="400"%}
 <span style="font-size: 10px">"System Prototype"</span>

@@ -31,7 +31,10 @@ This project was done as part of the course 2907 Sensors and Actuator Networks a
 
 {% include image-gallery.html images="finalProduct.jpeg, finalProduct_outside-open.jpg" height="300"%}
 {% include image-gallery.html images="finalProduct_wBatteryPack.jpg, finalProduct_30deg.jpg" height="300"%}
-<span style="font-size: 10px">"Images of the Final Product Installed"</span>  
+<span style="font-size: 10px">"Images of the Final Product Installed"</span> 
+
+{% include youtube-video.html id="1nNW60RcUi4" autoplay= "false"%}
+<span style="font-size: 10px">"Video Show Case"</span>
 
 ## 📦 Requirements
 - Arduino IDE
