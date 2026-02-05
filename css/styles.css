@@ -1083,6 +1083,9 @@ footer p {
         margin:0 auto;
     }
     
+	.post-view .log-date {
+		color: var(--link-color);
+	}
 }
 
 

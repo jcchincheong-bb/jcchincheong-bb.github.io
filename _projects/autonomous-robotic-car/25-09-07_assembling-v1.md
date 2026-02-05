@@ -25,7 +25,7 @@ After the motors where all attached and moving the correct direcion, I wired the
 {% include image-gallery.html images="RobCar-V1_motor-drivers.jpg" height="400"%}
 
 To test the first driver, I create a simple script to drive in forward then stop and then reverse
-```arduino
+```cpp
 // ***************** PINS **********************
 // Front Right Motor (FR)
 int motorFRpin1 = 5;
@@ -89,7 +89,7 @@ I also made some adjustments to the code.
 
 Added pins for the trigger and echo of the sensor
 
-```arduino
+```cpp
 // Ultrasonic Sensor
 #define Trigger 12
 #define Echo 13
@@ -97,7 +97,7 @@ Added pins for the trigger and echo of the sensor
 
 initial setup for correct i/o config
 
-```arduino
+```cpp
 // Set Echo and Trigger for US Sensor
   pinMode(Echo, INPUT);
   pinMode(Trigger, OUTPUT);
@@ -105,7 +105,7 @@ initial setup for correct i/o config
 
 added pulse and reading to the loop, plus I calculated distance and created a simple emergency stop logic 
 
-```arduino
+```cpp
 void loop() {
   // Set Trigger LOW
   digitalWrite(Trigger, LOW);
