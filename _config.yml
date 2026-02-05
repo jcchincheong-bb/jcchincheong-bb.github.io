@@ -65,7 +65,8 @@ skills:
     tools:
     - PID Tuning
     - State-Space Modelling
-    - PLC Programming (Ladder Logic)
+    - Z-transform for Digital Control Systems
+    - PLC Programming (Ladder Logic and Functional Block Diagrams)
     - Stability Analysis (Nyquist, Bode, Root Locus)
     - Laplace Transforms
   - category: Robotics
@@ -108,6 +109,12 @@ skills:
     - Hypothesis Testing
     - Data Visualization
     - Interpolation and Extrapolation
+  - category: Pure Mathematics
+    tools:
+    - Calculus (Univariate and Multivariate)
+    - Matrices and Linear Algebra
+    - Fourier Transforms
+    - Laplace and Z-transforms
   - category: Tools and Platforms
     tools:
     - Git and GitHub 
