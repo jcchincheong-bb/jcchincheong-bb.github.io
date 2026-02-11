@@ -5,6 +5,7 @@
     <div class="grid-container">
         {% for item in site.projects %}
         {% if item.layout == "post" %}
+        <!-- If I want to make it so only main projects show here, I create new main.html file and only let those show up here. -->
         <a href="{{ item.url }}" class="project-link">
             <div class="project-card">
                 {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
