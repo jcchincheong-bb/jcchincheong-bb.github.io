@@ -2,7 +2,7 @@
 layout: post
 title: The Knock Lock
 description: Designing and implementing a lockbox which unlocks when user knocks in a specific pattern.
-github: https://github.com/jcchincheong-bb/Knock-Lock
+github: https://github.com/jcchincheong-bb/The-Knock-Lock
 skills: 
   - ESP32
   - C++
